@@ -1,0 +1,9 @@
+.venv/
+build/
+dist/
+dlist
+*.spec
+__pycache__/
+.pytest_cache/
+.local-test/
+.ruff_cache/

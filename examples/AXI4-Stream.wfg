@@ -1,0 +1,301 @@
+{
+  "name": "AXI4-Stream",
+  "duration": 120000,
+  "step": 5000,
+  "unit": "ns",
+  "tracks": [
+    {
+      "name": "clk",
+      "kind": "clock",
+      "id": "3ab701f3b7904bd8af8452fe71f9ec7d",
+      "color": "#5dd9bf",
+      "edges": [
+        {
+          "t": 0,
+          "value": "0",
+          "id": "844131fcb4f241709f67fd4484907ebc"
+        }
+      ],
+      "width": 1,
+      "radix": 16,
+      "period": 10000,
+      "duty": 50,
+      "phase": 0,
+      "divider": 1,
+      "invert": false,
+      "start_high": true,
+      "active_low": false,
+      "slope": 0,
+      "locked": false,
+      "visible": true,
+      "group": "System"
+    },
+    {
+      "name": "rst_n",
+      "kind": "signal",
+      "id": "baa1b06780aa44ca8787d2be7398d17e",
+      "color": "#f3b471",
+      "edges": [
+        {
+          "t": 0,
+          "value": "0",
+          "id": "fba4fe314381461ca71adc28d0822e0d"
+        },
+        {
+          "t": 20000,
+          "value": "1",
+          "id": "289de05cf3e845daaeed4e225f32ec5d"
+        }
+      ],
+      "width": 1,
+      "radix": 16,
+      "period": 10000,
+      "duty": 50,
+      "phase": 0,
+      "divider": 1,
+      "invert": false,
+      "start_high": true,
+      "active_low": true,
+      "slope": 0,
+      "locked": false,
+      "visible": true,
+      "group": "System"
+    },
+    {
+      "name": "valid",
+      "kind": "signal",
+      "id": "0c479b3dc0e04feb867466abbdc4c240",
+      "color": "#83afff",
+      "edges": [
+        {
+          "t": 0,
+          "value": "0",
+          "id": "2bf3f58a15a34c78a4f1703123283f21"
+        },
+        {
+          "t": 25000,
+          "value": "1",
+          "id": "834b7dc3f55f4ae3b42f0fadeca6d20b"
+        },
+        {
+          "t": 85000,
+          "value": "0",
+          "id": "500c82c6cd134dd9be0905ad8facbf10"
+        },
+        {
+          "t": 95000,
+          "value": "1",
+          "id": "a29091168be147968c00616c5cd5f857"
+        },
+        {
+          "t": 105000,
+          "value": "0",
+          "id": "529b3602df454ec1b6cde07adf34b567"
+        }
+      ],
+      "width": 1,
+      "radix": 16,
+      "period": 10000,
+      "duty": 50,
+      "phase": 0,
+      "divider": 1,
+      "invert": false,
+      "start_high": true,
+      "active_low": false,
+      "slope": 0,
+      "locked": false,
+      "visible": true,
+      "group": "AXI4-Stream"
+    },
+    {
+      "name": "ready",
+      "kind": "signal",
+      "id": "286eba0ca89642fc9169f3f07e7125b0",
+      "color": "#bc9afa",
+      "edges": [
+        {
+          "t": 0,
+          "value": "0",
+          "id": "b2e71b7347a74289b854740ef3072222"
+        },
+        {
+          "t": 35000,
+          "value": "1",
+          "id": "df94c15115a7454d9f71a71eb1799b56"
+        },
+        {
+          "t": 55000,
+          "value": "0",
+          "id": "94cfc7eca68243b8ab07a5e065fa1700"
+        },
+        {
+          "t": 75000,
+          "value": "1",
+          "id": "594f44c2129c4c58915dcbe4523cfc8f"
+        },
+        {
+          "t": 105000,
+          "value": "0",
+          "id": "020a43b82b934ca686a14dc2cb842a74"
+        }
+      ],
+      "width": 1,
+      "radix": 16,
+      "period": 10000,
+      "duty": 50,
+      "phase": 0,
+      "divider": 1,
+      "invert": false,
+      "start_high": true,
+      "active_low": false,
+      "slope": 0,
+      "locked": false,
+      "visible": true,
+      "group": "AXI4-Stream"
+    },
+    {
+      "name": "data",
+      "kind": "bus",
+      "id": "1a277808bf9d41d69b756585ebe33c26",
+      "color": "#5dd9bf",
+      "edges": [
+        {
+          "t": 0,
+          "value": "X",
+          "id": "fcd167e881c44aa2876c4394a72b284e"
+        },
+        {
+          "t": 25000,
+          "value": "4660",
+          "id": "7e12110dba89411ead7782a520331cf2"
+        },
+        {
+          "t": 45000,
+          "value": "22136",
+          "id": "2ddbcbf3dd814d46961e17791c3c63d0"
+        },
+        {
+          "t": 55000,
+          "value": "39612",
+          "id": "29f48056dd3248e1a0023869fef035e1"
+        },
+        {
+          "t": 85000,
+          "value": "X",
+          "id": "6b57dd8829ab47578c6acbd9d7cdbb01"
+        },
+        {
+          "t": 95000,
+          "value": "57072",
+          "id": "b08b6b4eaf6b40089cbe5c23b681e2ae"
+        },
+        {
+          "t": 105000,
+          "value": "X",
+          "id": "7b2cc1efd93f4f289abb6fe877ef9e49"
+        }
+      ],
+      "width": 16,
+      "radix": 16,
+      "period": 10000,
+      "duty": 50,
+      "phase": 0,
+      "divider": 1,
+      "invert": false,
+      "start_high": true,
+      "active_low": false,
+      "slope": 0,
+      "locked": false,
+      "visible": true,
+      "group": "AXI4-Stream"
+    },
+    {
+      "name": "tlast",
+      "kind": "signal",
+      "id": "cbb08f3c70c344feb596ffd7a7b1ab6b",
+      "color": "#e58dae",
+      "edges": [
+        {
+          "t": 0,
+          "value": "0",
+          "id": "73fa21cfe3784322964746c4c5378c0a"
+        },
+        {
+          "t": 95000,
+          "value": "1",
+          "id": "d618bc2465b5413fbbbaafe337d31a17"
+        },
+        {
+          "t": 105000,
+          "value": "0",
+          "id": "3aa8f40ac9ba4189a3dc7fdb4867c1d7"
+        }
+      ],
+      "width": 1,
+      "radix": 16,
+      "period": 10000,
+      "duty": 50,
+      "phase": 0,
+      "divider": 1,
+      "invert": false,
+      "start_high": true,
+      "active_low": false,
+      "slope": 0,
+      "locked": false,
+      "visible": true,
+      "group": "AXI4-Stream"
+    }
+  ],
+  "notes": [
+    {
+      "kind": "Setup",
+      "a": {
+        "t": 25000,
+        "track": "0c479b3dc0e04feb867466abbdc4c240",
+        "edge": "834b7dc3f55f4ae3b42f0fadeca6d20b"
+      },
+      "b": {
+        "t": 30000,
+        "track": "3ab701f3b7904bd8af8452fe71f9ec7d",
+        "edge": "3/0"
+      },
+      "text": "",
+      "color": "#e9b977",
+      "size": 10,
+      "weight": 2,
+      "font": "Segoe UI",
+      "arrows": "both",
+      "id": "9c9f51483f57495699e60a37bf553d62"
+    },
+    {
+      "kind": "Hold",
+      "a": {
+        "t": 40000,
+        "track": "3ab701f3b7904bd8af8452fe71f9ec7d",
+        "edge": "4/0"
+      },
+      "b": {
+        "t": 45000,
+        "track": "1a277808bf9d41d69b756585ebe33c26",
+        "edge": "2ddbcbf3dd814d46961e17791c3c63d0"
+      },
+      "text": "",
+      "color": "#86aef3",
+      "size": 10,
+      "weight": 2,
+      "font": "Segoe UI",
+      "arrows": "both",
+      "id": "1a6a3bbafcbd426e86f523f70453af5b"
+    }
+  ],
+  "cursors": [],
+  "collapsed": [],
+  "breaks": [],
+  "grid": true,
+  "snap": true,
+  "style": "engineering",
+  "zoom": 1.0,
+  "viewport_start": 0,
+  "guides": [],
+  "version": 1
+}
